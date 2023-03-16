@@ -24,6 +24,7 @@ public class JavaApplication43 {
         int a= leer.nextInt();
         System.out.println("Ingrese e segundo numero: ");
         int b= leer.nextInt();
+           //condicional if 
          if(a>b) {
             System.out.println(nombre+ " El numro mayor es " +a+ " y el numero menor es " +b);
         }   else{
