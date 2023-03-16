@@ -18,12 +18,13 @@ public class JavaApplication43 {
     public static void main(String[] args) {
         Scanner leer = new Scanner (System.in);
         //impleamos la entada de texto
+        
         System.out.println("ingrese su nombre: ");
         String nombre = leer.next();
         System.out.println("ingrese un numero que no sea 10 :v ");
         int a= leer.nextInt();
         int b= 10;
-           //condicional if 
+           //condicional if
          if(a>b) {
             System.out.println(nombre+ " el valor que ingreso es mayor a 10 ");
         }   else{
