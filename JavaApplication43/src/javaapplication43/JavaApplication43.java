@@ -17,6 +17,7 @@ public class JavaApplication43 {
      */
     public static void main(String[] args) {
         Scanner leer = new Scanner (System.in);
+        //impleamos la entada de texto
         System.out.println("ingrese su nombre: ");
         String nombre = leer.next();
         System.out.println("ingrese el primer numero: ");
