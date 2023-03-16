@@ -17,14 +17,16 @@ public class JavaApplication43 {
      */
     public static void main(String[] args) {
         Scanner leer = new Scanner (System.in);
+        System.out.println("ingrese su nombre: ");
+        String nombre = leer.next();
         System.out.println("ingrese el primer numero: ");
         int a= leer.nextInt();
         System.out.println("Ingrese e segundo numero: ");
         int b= leer.nextInt();
          if(a>b) {
-            System.out.println("El numro mayor es " +a+ " y el numero menor es " +b);
+            System.out.println(nombre+ " El numro mayor es " +a+ " y el numero menor es " +b);
         }   else{
-            System.out.println("El numro mayor es " +b+ " y el numro menor es " +a);
+            System.out.println(nombre+ " El numro mayor es " +b+ " y el numro menor es " +a);
         }
     }
 }    
