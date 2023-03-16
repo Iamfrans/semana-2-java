@@ -20,15 +20,14 @@ public class JavaApplication43 {
         //impleamos la entada de texto
         System.out.println("ingrese su nombre: ");
         String nombre = leer.next();
-        System.out.println("ingrese el primer numero: ");
+        System.out.println("ingrese un numero que no sea 10 :v ");
         int a= leer.nextInt();
-        System.out.println("Ingrese e segundo numero: ");
-        int b= leer.nextInt();
+        int b= 10;
            //condicional if 
          if(a>b) {
-            System.out.println(nombre+ " El numro mayor es " +a+ " y el numero menor es " +b);
+            System.out.println(nombre+ " el valor que ingreso es mayor a 10 ");
         }   else{
-            System.out.println(nombre+ " El numro mayor es " +b+ " y el numro menor es " +a);
+            System.out.println(nombre+ " el valor que ingrso es menor a 10 ");
         }
     }
 }    
