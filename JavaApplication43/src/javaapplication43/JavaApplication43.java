@@ -21,14 +21,14 @@ public class JavaApplication43 {
         
         System.out.println("ingrese su nombre: ");
         String nombre = leer.next();
-        System.out.println("ingrese un numero que no sea 10 :v ");
+        System.out.println(" Hola " +nombre+  ", ingrese un numero que no sea 10 :v ");
         int a= leer.nextInt();
         int b= 10;
            //condicional if
          if(a>b) {
-            System.out.println(nombre+ " el valor que ingreso es mayor a 10 ");
+            System.out.println(nombre+ " el valor que ingreso es mayor que 10 ");
         }   else{
-            System.out.println(nombre+ " el valor que ingrso es menor a 10 ");
+            System.out.println(nombre+ " el valor que ingrso es menor que 10 ");
         }
     }
 }    
