@@ -22,7 +22,7 @@ public class JavaApplication43 {
         System.out.println("ingrese su nombre: ");
         String nombre = leer.next();
         System.out.println("Hola " +nombre+  ", ingrese un numero : ");
-        float a= leer.nextInt();
+        float a= leer.nextFloat();
         //condicional if
         
         if(a>10) {
